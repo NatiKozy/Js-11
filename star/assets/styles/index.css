@@ -1,0 +1,53 @@
+.main__container{
+    border: 1px solid #f02dc5;
+}
+
+h1{
+    text-align: center;
+    color: #86096b;
+    text-transform: uppercase;
+}
+
+.item__container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #f02dc5;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    color: #b16da2;
+    font-style: oblique;
+    font-size: large;
+}
+
+.price{
+    color: #86096b;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.result__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#button{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: #f02dc5;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+#sum{
+    color: #86096b;
+    font-weight: bold;
+    font-size: 26px;
+}
