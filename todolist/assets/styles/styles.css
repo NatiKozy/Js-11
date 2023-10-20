@@ -1,0 +1,49 @@
+body{
+    background: #cfe4e2 ;
+}
+
+.taskInput{
+    width: 200px;
+    height: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #2a6b65;
+    font-style: italic;
+    text-transform:uppercase;
+}
+
+div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 150px;
+    height: 25px;
+    background-color: #c8f5f1;
+    border: 1px solid #6cb8b1;
+    cursor: pointer;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.listElem{
+    text-align: center;
+    color: #2a6b65;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.lined{
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 22px;
+    color: #2a6b65;
+    cursor: pointer;
+}
